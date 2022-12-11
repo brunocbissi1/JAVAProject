@@ -1,0 +1,26 @@
+Função:	ZCHANGEDOCUMENT_READ						SAPLZBAPI
+							
+Campo Bapi		Elemento de Dados	Domínio	Descrição do Campo			
+							
+OBJECTID		CDOBJECTV	CHAR90	Valor do objeto			
+CHANGENR		CDCHANGENR	CDCHANGENR	Nº modificação do documento			
+USERNAME		CDUSERNAME	CHAR12	Nome usuário que modificou documento de modificação			
+UDATE		CDDATUM	DATUM	Data de criação do documento de modificação			
+UTIME		CDUZEIT	UZEIT	Hora da modificação			
+TCODE		CDTCODE	TCODE	Transação, na qual foi realizada uma modificação			
+TABNAME		CDTABNAME	AS4TAB	Criação de documentos de modificação: nome da tabela			
+TABKEY		CDTABKEY	CHAR70	Chave da linha de tabela modificada			
+KEYLEN		CDINTLEN	DDLEN	Comprimento da chave de tabela			
+CHNGIND		CDCHNGIND	CDCHNGIND	Tipo da modificação (U, I, E, D)			
+FNAME		FIELDNAME	FDNAME	Nome do campo			
+FTEXT		DDTEXT	DDTEXT	Texto breve explicativo			
+TEXTART		CDTEXTART	CDTEXTART	Criação de documento de modificação: tipo de texto			
+SPRACHE		SPRAS	SPRAS	Código de idioma			
+TEXT_CASE		CDTEXTIND	XFELD	Código: modificação de texto ('X')			
+OUTLEN		CDOUTLEN	DDLEN	Comprimento de saída dos valores antigo e novo			
+F_OLD		CDFLDVALO	FIELDVAL	Conteúdo antigo do campo modificado			
+F_NEW		CDFLDVALN	FIELDVAL	Novo conteúdo do campo modificado			
+KEYGUID		CDKEYGUID	SYSUUID_C	KEYGUID para a conexão a CDPOS_UID			
+TABKEY254		CDTABKEYLO	TABKEYLONG	Chave de tabela para CDPOS no caractere 254			
+EXT_KEYLEN		CDINTLEN	DDLEN	Comprimento da chave de tabela			
+KEYGUID_STR		CDKEYGUID_STR	SYSUUID_C	KEYGUID para a conexão a CDPOS_STR			
